@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:myapp="http://schemas.android.com/apk/res/com.androidbook.Fart"
+	
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/toiletexplosion">
+    
+<TableLayout
+        android:id="@+id/TableLayout01"
+        android:stretchColumns="*"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        >
+
+        <TableRow
+            android:id="@+id/TableRow00"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal">
+            
+        
+        
+        <ImageView
+        android:src="@drawable/title_seethrough"
+        android:layout_height="wrap_content"
+     	android:layout_width="wrap_content"
+     	android:id="@+id/titlebanner"  
+        ></ImageView>
+        
+        
+	</TableRow>
+	  </TableLayout>
+	  
+	  <TableLayout
+	  android:id="@+id/TableLayout02"
+        android:stretchColumns="*"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        >
+	   <TableRow
+            android:id="@+id/TableRowad"
+            android:layout_height="20px"
+            android:layout_width="200px"
+            android:layout_gravity="center_vertical|center_horizontal">
+     
+        
+        <com.admob.android.ads.AdView
+android:id="@+id/ad"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+myapp:backgroundColor="#000000"
+myapp:primaryTextColor="#FFFFFF"
+myapp:secondaryTextColor="#CCCCCC"
+/>
+        
+
+        
+
+</TableRow>
+        </TableLayout>
+        
+        
+    <TableLayout
+        android:id="@+id/TableLayout03"
+        android:stretchColumns="*"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="20px"
+        >
+     
+     
+        <TableRow
+            android:id="@+id/TableRow01"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal">    
+<Button
+     android:layout_height="wrap_content"
+     android:layout_width="wrap_content"
+     android:id="@+id/b1"
+     android:background="@drawable/fart_button1"
+     android:onClick="playFartOne" />
+     
+<Button
+     android:layout_height="wrap_content"
+     android:layout_width="wrap_content"
+     android:id="@+id/b2"
+     android:background="@drawable/fart_button2"
+     android:onClick="playFartTwo" />
+     
+<Button
+     android:layout_height="wrap_content"
+     android:layout_width="wrap_content"
+     android:id="@+id/b3"
+     android:background="@drawable/fart_button3"
+     android:onClick="playFartThree" />
+     
+</TableRow>
+
+<TableRow
+            android:id="@+id/TableRow02"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"> 
+<Button
+     android:layout_height="wrap_content"
+     android:layout_width="wrap_content"
+     android:background="@drawable/fart_button4"
+     android:onClick="playFartFour" />
+     
+<Button
+     android:layout_height="wrap_content"
+     android:layout_width="wrap_content"
+     android:background="@drawable/fart_button5"
+     android:onClick="playFartFive" />                    
+     
+<Button
+     android:layout_height="wrap_content"
+     android:layout_width="wrap_content"
+     android:background="@drawable/fart_button6"
+     android:onClick="playFartSix" />                    
+     
+</TableRow>
+
+<TableRow
+            android:id="@+id/TableRow02"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"> 
+     
+<Button
+     android:layout_height="wrap_content"
+     android:layout_width="wrap_content"
+     android:background="@drawable/fart_button7"
+     android:onClick="playFartSeven" />
+     
+<Button
+     android:layout_height="wrap_content"
+     android:layout_width="wrap_content"
+     android:background="@drawable/fart_button8"
+     android:onClick="playFartEight" />                    
+     
+<Button
+     android:layout_height="wrap_content"
+     android:layout_width="wrap_content"
+     android:background="@drawable/fart_button9"
+     android:onClick="playFartNine" />                    
+     
+     </TableRow>
+     </TableLayout>
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, PlayFart!</string>
+     <string name="app_name">Fart...</string>
+	 <string name="fart1">Fart 1</string>
+	 <string name="fart2">Fart 2</string>
+	 <string name="fart3">Fart 3</string>
+	 <string name="fart4">Fart 4</string>
+	 <string name="fart5">Fart 5</string>
+</resources>
